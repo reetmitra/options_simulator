@@ -74,4 +74,33 @@ print(f"Gamma: {gamma:.4f}")
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Bash Script
+
+The project includes a bash script (`run_simulation.sh`) that automates the process of running the options simulation. The script:
+
+1. Creates and activates a virtual environment
+2. Installs required dependencies
+3. Runs the test suite
+4. Generates the Jupyter notebook tutorial
+5. Cleans up temporary files
+
+To use the bash script:
+
+```bash
+# Make the script executable
+chmod +x run_simulation.sh
+
+# Run the script
+./run_simulation.sh
+```
+
+The script will:
+- Create a virtual environment named `venv`
+- Install all required packages from `requirements.txt`
+- Run the test suite to verify functionality
+- Generate the Jupyter notebook tutorial
+- Clean up any temporary files
+
+Note: Make sure you have Python 3.8+ installed on your system before running the script. 
