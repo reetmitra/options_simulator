@@ -37,4 +37,14 @@ ENV/
 
 # OS
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Python virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Plot files
+plots/*.png 
