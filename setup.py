@@ -9,8 +9,8 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="options_simulator",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Reet Mitra",
+    author_email="reetmitra@u.nus.edu",
     description="A Python package for options pricing and analysis using the Black-Scholes model",
     long_description=long_description,
     long_description_content_type="text/markdown",
