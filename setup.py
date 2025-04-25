@@ -14,8 +14,10 @@ setup(
     description="A Python package for options pricing and analysis using the Black-Scholes model",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/options_simulator",
-    packages=find_packages(),
+    url="https://github.com/reetmitra/options_simulator",
+    packages=find_packages(where="."),
+    package_dir={"": "."},
+    include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
