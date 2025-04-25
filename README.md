@@ -78,7 +78,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Bash Script
 
-The project includes a bash script (`run_simulation.sh`) that automates the process of running the options simulation. The script:
+The project includes a bash script (`run_tests.sh`) that automates the process of running the options simulation. The script:
 
 1. Creates and activates a virtual environment
 2. Installs required dependencies
